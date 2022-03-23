@@ -81,10 +81,20 @@ body{
     background-size: cover;
 }
 .connect-btn{
+    border:none;
     font-family: "tachyon";
     clip-path: polygon(100% 0%, 100% 60%, 88% 100%, 0% 100%, 0% 38%, 15% 0%);
-background: linear-gradient(180deg, #00D3FF 8.92%, #3066BE 87%);;
+background: linear-gradient(180deg,  #00D3FF 8.92%, #3066BE 87%);
 }
+
+
+.connect-btn:hover{
+    background: linear-gradient( 110deg, #00D3FF 8.92%, #3066BE 87%) !important;
+
+}
+
+
+
 /* HOME-SECTION-ENDS */
 @media(max-width:568px){
 
@@ -95,4 +105,64 @@ background: linear-gradient(180deg, #00D3FF 8.92%, #3066BE 87%);;
         justify-content: center;
         vertical-align: bottom;
     }
+}
+
+
+/* PROJECT SECTION */
+.project_section {
+    background-image: url(../image/png/prjbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 820px;
+}
+.project_one_card {  border: 1px solid #00D3FF
+    ;
+  background-color: rgba(255, 255, 255, 0.1);backdrop-filter: blur(25px);
+    border-radius: 8px;
+    
+}
+
+.view_button{
+ color: #3066BE }
+
+ @media(min-width:567px){
+    .lorem_para{
+        display: none;
+    }
+ }
+ @media(max-width:567px){
+    .Lorem_2{
+        display: none;
+    }
+    :root{
+        --text-xs:10px;
+        
+        --text-lg:14px;
+       }
+       .project_one_img{
+           width: 100%;
+       }
+       .personal_jones{
+           margin: auto;
+       }
+
+
+ }
+
+
+/* ABOUT SECTION */
+.about_section{
+    background-image: url(../image/png/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;
+}
+.about_card{
+    border: 1px solid #00D3FF
+    ;
+  background-color: rgba(255, 255, 255, 0.1);backdrop-filter: blur(25px);
+    border-radius: 8px;
 }
