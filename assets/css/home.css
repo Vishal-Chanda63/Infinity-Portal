@@ -13,6 +13,9 @@
     src: url(../font/Gilroy-Regular.ttf);
 }
 
+body{
+    font-family: "tachyon";
+}
  :root{
  --text-xs:14px;
  --text-sm:16px;
@@ -68,6 +71,8 @@
 .copy_color{
     color: var(--copy_color);
 }
+
+
 /* HOME-SECTION */
 .home_section{
     min-height: 100vh;
@@ -76,8 +81,18 @@
     background-size: cover;
 }
 .connect-btn{
-    font-family: "";
-    clip-path: polygon(100% 0%, 100% 56%, 88% 100%, 0% 100%, 0% 50%, 15% 0%);
+    font-family: "tachyon";
+    clip-path: polygon(100% 0%, 100% 60%, 88% 100%, 0% 100%, 0% 38%, 15% 0%);
 background: linear-gradient(180deg, #00D3FF 8.92%, #3066BE 87%);;
 }
 /* HOME-SECTION-ENDS */
+@media(max-width:568px){
+
+    .home_section{
+        min-height: 60vh;
+        display:flex;
+        align-items: end;
+        justify-content: center;
+        vertical-align: bottom;
+    }
+}
