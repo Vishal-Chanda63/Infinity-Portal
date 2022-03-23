@@ -3,3 +3,87 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+    {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-xs: 14px;
+    --text-sm: 16px;
+    --text-base: 20px;
+    --text-lg: 25px;
+    --text-xl: 49px;
+    /* FONT-WEIGHTS  */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-700: 700;
+    /* ROOT-COLORS  */
+    --white: #fff;
+    --black_color: #000;
+    --copy_color: #B2B2B2;
+}
+
+.text-xs {
+    font-size: var(--text-xs);
+}
+
+.text-sm {
+    font-size: var(--text-sm);
+}
+
+.text-base {
+    font-size: var(--text-base);
+}
+
+.text-lg {
+    font-size: var(--text-lg);
+}
+
+.text-xl {
+    font-size: var(--text-xl);
+}
+
+.fw-300 {
+    font-weight: var(--fw-300)
+}
+
+.fw-400 {
+    font-weight: var(--fw-400)
+}
+
+.fw-700 {
+    font-weight: var(--fw-700)
+}
+
+/* font-Colors */
+.white {
+    color: var(--white);
+}
+
+.black_color {
+    color: var(--black_color);
+}
+
+.copy_color {
+    color: var(--copy_color);
+}
+
+/* TEAM=========SECTION=========CSS */
+.team_section {
+    background-image: url(../image/png/team-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 897px;
+}
+
+.bg-team-img {
+    background-image: url(../image/png/taam.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 414px;
+}
+
+/* FOTER=========SECTION=========CSS */
