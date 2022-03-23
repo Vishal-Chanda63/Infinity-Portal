@@ -4,16 +4,6 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: "tachyons";
-    src: url(../font/Tachyon\ W00\ Regular.ttf);
-}
-
-@font-face {
-    font-family: "gilroy";
-    src: url(../font/Gilroy-Regular.ttf);
-}
-
 :root {
     --text-xs: 14px;
     --text-sm: 16px;
@@ -84,17 +74,29 @@
 }
 
 .bg-team-img {
-    background-image: url(../image/png/Rectangle\ 19.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 414px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(18.2094px);
+    border-radius: 16.1251px;
+
+}
+
+.wright-para {
+    bottom: 50px;
+}
+
+.clip-path {
+    clip-path: polygon(0px 11%, 100% 0%, 100% 100%, 0% 95%);
+}
+
+.clip-path-second {
+    clip-path: polygon(0 0, 100% 12%, 100% 95%, 0 100%);
 }
 
 /* foter=========SECTION=========CSS */
 
 .discord-img {
-    width: 5 0px;
-    height: 50px;
+    width: 50px;
+    height: 40px;
 }
 
 .copyright {
@@ -108,4 +110,25 @@ span:hover .discord-img {
 
 .cursor {
     cursor: pointer;
+}
+
+.foter {
+    margin-top: -1px;
+}
+
+@media(min-width:1500px) {
+    .team_section {
+        min-height: 1160px;
+    }
+}
+
+@media(max-width:992px) and (min-width:768px) {
+    .bg-team-img {
+        margin-left: -14px;
+    }
+
+    .ipad-img {
+        margin-left: -45px;
+    }
+
 }
