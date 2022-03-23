@@ -5,13 +5,14 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: "tachyons";
-    src: url(../font/Tachyon\ W00\ Regular.ttf);
+    font-family: "tachyon";
+    src: url(../font/tachyoon.ttf);
 }
 @font-face {
     font-family: "gilroy";
     src: url(../font/Gilroy-Regular.ttf);
 }
+
  :root{
  --text-xs:14px;
  --text-sm:16px;
@@ -75,6 +76,7 @@
     background-size: cover;
 }
 .connect-btn{
+    font-family: "";
     clip-path: polygon(100% 0%, 100% 56%, 88% 100%, 0% 100%, 0% 50%, 15% 0%);
 background: linear-gradient(180deg, #00D3FF 8.92%, #3066BE 87%);;
 }
